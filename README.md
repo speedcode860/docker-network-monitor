@@ -17,7 +17,7 @@ L’architecture repose sur un conteneur Docker exécutant une API Flask, expos�
 
 Le diagramme ci-dessous illustre le fonctionnement global du projet, depuis le client jusqu’à l’API exécutée dans le conteneur Docker.
 
-![Architecture Docker](architecture.png)
+[Architecture Docker](architecture.png)
 
 ---
 

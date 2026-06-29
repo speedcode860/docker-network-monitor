@@ -1,13 +1,10 @@
 # 🐳 Docker Network Monitor
 
-## 📌 Présentation du projet
-
 Ce projet a pour objectif de mettre en place un **service de supervision réseau conteneurisé** à l’aide de Docker.
 Il permet de comprendre les bases de la **virtualisation légère**, de l’exposition réseau via Docker et du test d’API à l’aide d’outils comme Postman ou un navigateur web.
 
 Le projet simule un service réseau d’entreprise simple, accessible via HTTP.
 
----
 
 ## 🧱 Architecture du projet
 
@@ -19,7 +16,7 @@ Le diagramme ci-dessous illustre le fonctionnement global du projet, depuis le c
 
 ![Architecture Docker](architecture.png)
 
----
+
 
 ## 📁 Architecture des fichiers du projet
 
@@ -35,7 +32,7 @@ docker-network-monitor/
 └── README.md
 ```
 
----
+
 
 ## 🪜 Étape 1 — Préparation du projet
 
@@ -46,7 +43,7 @@ Après avoir reproduit l’architecture des fichiers ci-dessus, les différents 
 - `requirements.txt` : dépendances Python
 - `.dockerignore` : exclusion des fichiers inutiles lors du build Docker
 
----
+
 
 ## 🐳 Étape 2 — Création de l’image Docker
 
@@ -67,7 +64,7 @@ docker images
 ```
 ![Verfifcation de l'image](image/dock2.png)
 
----
+
 
 ## ▶️ Étape 3 — Lancement du conteneur Docker
 
@@ -87,7 +84,7 @@ docker ps
 
 ![Lancement du conteneur et verification](image/dock3.png)
 
----
+
 
 ## 🌐 Étape 4 — Accès au service via navigateur / Postman
 
@@ -114,7 +111,7 @@ Les requêtes retournent des réponses JSON simulant des métriques réseau prov
 ![](image/dock5.png)
 
 
----
+
 
 ## 🧠 Analyse et conclusion
 

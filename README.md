@@ -133,4 +133,5 @@ Il constitue une base solide avant d’aborder :
 
 ## 👨‍💻 Auteur
 
-Projet réalisé dans un cadre d’apprentissage Docker, Réseaux et Virtualisation.
+Projet réalisé dans un cadre d’apprentissage Docker, Réseaux,Virtualisation et devops.
+Muaye Moussinga
